@@ -1,0 +1,456 @@
+.form-control{
+    margin-bottom: 15%;
+    background-color: #333333;
+    border: none;
+    margin-left: 5%;
+    border-radius: 0px;
+}
+#navigation{
+  border-top: 2px dotted blue;
+  border-bottom: 2px dotted blue;
+  background-image: url("assets/images/starfield-banner.jpg");
+}
+#navbarDropdown{
+  font-size: 20px;
+  color: white;
+  font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+.navbar-nav{
+    margin-left: 10%;
+    margin-bottom: 3%;
+    color: white;
+}
+.dropdown-toggle::after {
+    display:none;
+}
+.dropdown-menu{
+    background-color: #15418C;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 0.99;
+    color: white;
+    border-radius: 0px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-item{
+  color: white;
+}
+.dropdown-item:hover{
+  color: white;
+}
+.dropdown-menu a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {background-color: #072F54;}
+
+.dropdown:hover .dropdown-menu {display: block;}
+
+.nav-item{
+  border-left: 2px solid grey;
+  height: 3.5rem;
+  padding: 5px;
+}
+.nav-item1{
+  height: 3.5rem;
+  padding: 5px;
+}
+.nav-item:hover{
+  background-color: #15418C;
+  color: white
+}
+.nav-item1:hover{
+  background-color: #15418C;
+  color: white
+}
+.navbar{
+  width: 80%;
+  margin-left: 10%;
+  border: none;
+  height: 8rem;
+}
+.second{
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ list-style: none;
+ margin-top: 6%;
+ padding-left: 15%;
+ z-index: 1;
+ position: absolute;
+ font-size: 0.9rem;
+ }
+.third{
+ margin-left:0px;
+ border-left: 1px solid grey;
+ float:left; /*pour IE*/
+ }
+.second .third .fourth {
+ display:block;
+ float:left;
+ width:auto;
+ background-color:#555555;
+ color:white;
+ text-decoration:none;
+ text-align:center;
+ padding:10px;
+ }
+.second .third .fourth:hover {
+ background-color:#888888;
+ }
+i{
+  color: white;
+}
+@media screen and (max-width: 990px){
+  .second{display: none;}
+  .nav-item{border-left: none}
+  .nav-item:hover{z-index: 1}
+  .nav-item1:hover{z-index: 1}
+  #trending1{padding: 5em;}
+}
+#trending1 {
+    padding-left: 0.8em;
+    width: 100%;
+    background: #FC3D21;
+    color: white;
+    margin-top: 27px;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 9%;
+}
+#a1{
+  color: white;
+}
+#a1:hover{
+  color: white;
+}
+
+/*body1*/
+.container-fluid {
+  margin-top: 3rem;
+}
+.iss {
+  background-image: url("../images/commercialResupply.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 668px;
+  width: 675px;
+
+  padding-top: 644px;
+  font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-weight: bold;
+}
+.iss1 {
+  color: black;
+  background-color: #FFFFFF;
+  text-align: justify;
+  padding-left: 1px;
+}
+.new {
+  background-image: url("../images/asteroide1.jpg");
+  background-position: center;
+  height: 326.5px;
+  width: 300px;
+  padding-top: 254px;
+  font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-weight: bold;
+  margin-left: 85px;  /*ATTENTION MARGIN*/
+}
+.new1 {
+  color: white;
+  background-color: rgba(93, 127, 185, 0.85);
+  width:40%;
+  height:25px;
+  text-align: center;
+}
+.new2 {
+  color: black;
+  background-color: #FFFFFF;
+  text-align: justify;
+  padding-left: 1px;
+}
+.hubble {
+  background-image: url("../images/Hubble.jpg");
+  background-position: center;
+  height: 326.5px;
+  width: 300px;
+
+  padding-top: 254px;
+  font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-weight: bold;
+  margin-left: 360px;  /*ATTENTION MARGIN*/
+}
+.hubble1 {
+  color: white;
+  background-color: rgba(93, 127, 185, 0.85);
+  width:30%;
+  height:25px;
+  text-align: center;
+}
+.hubble2 {
+  color: black;
+  background-color: #FFFFFF;
+  text-align: justify;
+/*  padding-left: 1px;*/
+}
+.lancement {
+  background-image: url("../images/moonToMars1.jpg");
+  background-position: center;
+  height: 326.5px;
+  width: 640px;
+  padding-top: 278px;
+  font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-weight: bold;
+  margin-left: 82px;  /*ATTENTION MARGIN*/
+}
+.lancement1 {
+  color: white;
+  background-color: rgba(93, 127, 185, 0.85);
+  width:20%;
+  height:25px;
+  text-align: center;
+}
+.lancement2 {
+  color: black;
+  background-color: #FFFFFF;
+  text-align: justify;
+/*  padding-left: 1px;*/
+}
+.asteroide {
+  background-image: url("../images/newHorizons.jpg");
+  background-position: center;
+  height: 100%;
+
+  padding-top: 227px;
+  font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-weight: bold;
+}
+.asteroide1 {
+  color: white;
+  background-color: rgba(93, 127, 185, 0.85);
+  width:40%;
+  height:25px;
+  text-align: center;
+}
+.asteroide2 {
+  color: black;
+  background-color: #FFFFFF;
+  text-align: justify;
+  padding-left: 1px;
+}
+.satellite {
+  background-image: url("../images/osirisRex.png");
+  background-position: center;
+  height: 100%;
+  max-width: 1366px;
+  padding-top: 250px;
+  font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-weight: bold;
+}
+.satellite1 {
+  color: white;
+  background-color: rgba(93, 127, 185, 0.85);
+  width:20%;
+  height:25px;
+  text-align: center;
+}
+.satellite2 {
+  color: black;
+  background-color: #FFFFFF;
+  text-align: justify;
+  padding-left: 12px;
+  height:25px;
+}
+.twitter-timeline {
+  height:200px;
+  display: block;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+/*body2*/.container-fluid2{
+margin-top: 2rem;
+}
+/*footer*/
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color:black;
+}
+
+body {position: relative;}
+footer {position: relative; bottom: 0; left: 0; right: 0}
+#trending {
+    text-align: center;
+    background: #15418c;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.backmoontomars
+{
+  width: 326.5px;
+  height: 300px;
+  background-image: url("../images/moonToMars2.jpg");
+  background-repeat: no-repeat;
+
+}
+.backspaceStationResearch
+{
+  width: 326.5px;
+  height: 300px;
+background-image:url("../images/spaceStationResearch.jpg");
+
+background-repeat: no-repeat;
+margin-left: -7em;
+}
+.backspaceStation
+{
+  width: 326.5px;
+  height: 300px;
+background-image: url("../images/spaceSation.jpg");
+background-repeat: no-repeat;
+margin-left: -14em;
+
+}
+.backnustar
+{
+  width: 326.5px;
+  height: 300px;
+background-image:url("../images/spacex_dragon_release.jpg");
+background-repeat: no-repeat;
+margin-left: -21em;
+
+}
+.higherbutton
+{
+
+margin-top: 220px;
+background-color: rgba(93, 127, 185, 0.75);
+font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+font-weight: bold;
+
+}
+.lowerbutton
+{
+  width: 100%;
+}
+
+.margespacetationresearch
+{
+  margin-left:50px;
+}
+.margespacetation
+{
+  margin-left: 100px;
+}
+.margenustart
+{
+margin-left: 150px;
+}
+#footer-info .logo img {
+    width: 80px;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#footer {
+    width: 100%;
+    background: #000;
+    padding: 1.25em .7em 3em;
+    overflow: hidden;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    font-size: 1em;
+  }
+#footer-info .logo {
+    float: left;
+}
+a {
+    color: #428bca;
+    text-decoration: none;
+    background: transparent;
+}
+#footer #footer-info #status {
+    clear: none;
+}
+#footer-info #status {
+    clear: left;
+    margin: 1em 0;
+    line-height: 1.2em;
+}
+#footer-info #status{
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+    font-size: 0.95em;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+span{
+  color: white;
+}
+#footer #footer-links {
+    float: right;
+}
+#footer-links {
+    margin: 20px 0;
+    padding-left: 0;
+}
+ul{
+    padding: 0 0 0 40px;
+    margin: 1em 0;
+}
+#footer #footer-links li {
+    padding-left: 30px;
+    display: inline-block;
+    width: auto;
+}
+#footer-links li {
+    display: inline-block;
+    width: 100%;
+}
+#footer-links li a {
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    color: #5d7fb9;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+@media screen and (max-width: 1580px){
+  footer {
+    position: relative; bottom: 0; left: 0; right: 0
+    }
